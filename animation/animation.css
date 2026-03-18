@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 0px;
+    font-size: 40px;
+    background-color: green;
+    animation: one 2s ease-in-out 1s 2  both;
+    
+}
+
+@keyframes one{
+    0%{
+         transform: translate(0px);
+        background-color: yellow;
+    }
+    
+    25%{
+        transform: translate(100px);
+        background-color: pink;
+    }
+   
+    50%{
+        transform: translate(150px);
+        background-color: pink;
+
+    }
+    100%{
+        
+        transform: translate(200px);
+    }
+}
